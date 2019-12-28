@@ -1,2 +1,7 @@
-@import "~bootstrap/scss/bootstrap";
+// the custom muse come before the bootstrap and the mdb
 @import "./custom";
+@import "~bootstrap/scss/bootstrap";
+@import "./mdb";
+@import "./fonts";
+// must be in the end
+@import "./general";
